@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <style>
+    @media (max-width: 600px){
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
+
+    nav {
+        width: 100%;
+        top: 0%;
+        background-color:blue;
+        position: fixed;
+
+    }
+
+    a {
+        color: aqua;
+    }
+
+    .project-tile {
+        height: 300px;
+        width: 300px;
+        background-color: blueviolet;
+        margin: auto;
+    }
+
+    #welcome-section {
+        height: 100vh;
+    }
+    </style>
+
+
+    <nav id="navbar"><a href="#projects">Jump to projects</a>
+    </nav>
+    <div id="welcome-section">
+        <h1>Welcome to my Portfolio</h1>
+    </div>
+    <div id="projects">
+        <div class="project-tile">
+            <a href="">Click to Open project</a>
+        </div>
+    </div>
+    <a id="profile-link" href="https://github.com/freecodecamp" target="_blank">FCC Github Link</a>
+    
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
